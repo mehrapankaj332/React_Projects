@@ -1,0 +1,42 @@
+
+
+.calc{
+  width:360px;
+  margin:auto;
+ margin-top: 60px;
+}
+#answer{
+  background-color: grey;
+  padding: 10px;
+  font-size: 35px;
+  width: 335px;
+  height: 50px;
+  text-align: right;
+  border: 3px solid black;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: auto;
+}
+
+.button{
+  background-color: rgba(0, 0, 0, 0.808);
+  height: 80px;
+  width: 80px;
+  color:white;
+  border-radius: 100px;
+  font-size: 30px;
+  border:1px solid black;
+ 
+  float:left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px 5px 5px 5px;
+}
+.btn1{
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button:hover,
+.button:focus{
+  background-color: rgba(255,255,255,0.9);
+  color: black;
+}
